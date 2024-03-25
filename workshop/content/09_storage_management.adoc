@@ -80,7 +80,10 @@ Since disk snapshots are dependent on the storage implementation, abstracted by 
 ====
 Snapshots, by themselves, are not a backup or disaster recovery capability. The data needs to be protected in other ways, such as one or more copies stored in a different location, to recover from the storage system failing.
 
-In addition to the OpenShift API for Data Protection (OADP), partners such as Kasten by Veeam, Trilio, and Storware support the ability to backup and restore virtual machines to the same cluster or other clusters as needed.
+In addition to the OpenShift API for Data Protection (OADP), partners such as IBM and others support the ability to backup and restore virtual machines to the same cluster or other clusters as needed.
+
+1. IBM Storage Fusion 2.7.x support for `accessMode: Filesystem` PVCs
+2. IBM Storage Fusion 2.8.x support for `accessMode: Filesystem|Block` PVCs
 ====
 
 // AC - Perhaps a comment about advanced snapshot or cloning features provided by storage class and CSI drivers?
