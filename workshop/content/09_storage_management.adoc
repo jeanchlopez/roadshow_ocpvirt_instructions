@@ -7,7 +7,7 @@
 
 == Introduction to Storage Management 
 
-Red Hat OpenShift supports multiple types of storage, both for on-premises and cloud providers. OpenShift Virtualization can use any supported container storage interface (CSI) provisioner in the environment you're running on. For example, OpenShift Data Foundation, NetApp, Dell/EMC, Fujitsu, Hitachi, Pure Storage, Portworx, and many others support on-premises, CSI provisioned, ReadWriteMany (RWX) volumes with OpenShift Virtualization.
+Red Hat OpenShift supports multiple types of storage, both for on-premises and cloud providers. OpenShift Virtualization can use any supported container storage interface (CSI) provisioner in the environment you're running on. For example, OpenShift Data Foundation, IBM Storage Fusion (Data Foundation & Global Data Platform), and many others support on-premises, CSI provisioned, ReadWriteMany (RWX) volumes with OpenShift Virtualization.
 
 This workshop segment will explore Persistent Volume Claims (PVCs), which are used to request storage from the provider and store a VM disk. Many storage providers also support snapshots and clones of their devices, be sure to check with your vendor to verify the features supported by the CSI driver and storage device.
 
