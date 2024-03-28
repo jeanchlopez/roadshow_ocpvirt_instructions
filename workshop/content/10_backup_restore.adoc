@@ -9,7 +9,7 @@
 There are multiple options for backup and restore of virtual machines with OpenShift Virtualization.
 
 * https://docs.openshift.com/container-platform/4.13/backup_and_restore/application_backup_and_restore/oadp-features-plugins.html[*OADP (OpenShift APIs for Data Protection)*]: A Red Hat Operator which provides a storage agnostic method to back up and restore OpenShift objects, including virtual machines.
-* https://www.ibm.com/docs/en/storage-fusion-software/2.7.x?topic=applications-selecting-protection[*IBM Storage Fusion*]
+* https://www.ibm.com/docs/en/storage-fusion-software/2.7.x?topic=applications-selecting-protection[*IBM Fusion*]
 
 Additionally, many storage partners offer the ability to protect virtual machine disks using their native technology. Be sure to check with your storage and backup vendor(s) to determine compatibility with OpenShift Virtualization.
 

@@ -127,7 +127,7 @@ The Operator provides two custom resource definitions (CRDs) to extend the Kuber
 image::images/Install/environment_operator_crd.png[]
 +
 [NOTE]
-OpenShift Virtuailzation, even when deployed to a cluster with OpenShift Data Foundation or another Kubernetes-native storage solution, is not a hyperconverged product, which makes the Kubernetes object name misleading. This naming is the result of the history of the upstream KubeVirt project and it's origins as a part of the "Kubernetes-native Infrastructure" meta-project.
+OpenShift Virtuailzation, even when deployed to a cluster with Data Foundation or another Kubernetes-native storage solution, is not a hyperconverged product, which makes the Kubernetes object name misleading. This naming is the result of the history of the upstream KubeVirt project and it's origins as a part of the "Kubernetes-native Infrastructure" meta-project.
 
 . Explore the configuration options for OpenShift Virtualization
 +

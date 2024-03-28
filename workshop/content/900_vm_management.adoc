@@ -42,7 +42,7 @@ When a VM is created, an interface on the `PodNetworking` network of type `masqu
 +
 image::images/Create_VM_PVC/21_Disks_Tab.png[]
 +
-In this environment, the default StorageClass, which defines the source and type of storage used for the disk, is called `ocs-storagecluster-ceph-rbd`. This storage is the default type provided by OpenShift Data Foundation (ODF). Each storage provider has different storage classes that define the characteristics of the storage backing the VM disk.
+In this environment, the default StorageClass, which defines the source and type of storage used for the disk, is called `ocs-storagecluster-ceph-rbd`. This storage is the default type provided by Data Foundation (DF). Each storage provider has different storage classes that define the characteristics of the storage backing the VM disk.
 
 == Controlling virtual machine state
 
