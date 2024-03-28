@@ -51,7 +51,7 @@ Even though this template has a disk already available, we want to import a diff
 .. Specify the name `fedora02`
 .. Under *Storage* section 
 ... *Disk source*: `URL (creates PVC)`
-... *URL*: `http://192.168.123.100:81/Fedora35.qcow2`
+... *URL*: `https://download.fedoraproject.org/pub/fedora/linux/releases/39/Cloud/x86_64/images/Fedora-Cloud-Base-39-1.5.x86_64.qcow2`
 ... *Disk size*: 30 GiB
 
 +
